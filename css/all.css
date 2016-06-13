@@ -177,7 +177,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 25px 0;
+  padding: 18px 0;
   border-bottom: 1px solid #727779;
 }
 
@@ -260,10 +260,6 @@ nav ul li a:hover {
   left: 630px;
 }
 
-.content .curce-block {
-  width: 73%;
-}
-
 .content .curce-block .line {
   padding: 50px 0px;
 }
@@ -283,11 +279,15 @@ nav ul li a:hover {
   padding: 0 15px;
 }
 
-.content .curce-block .basic_curse {
+.content .curce-block .basic_curse,
+.content .curce-block .for-me_curce,
+.content .curce-block .bodyart_curce {
   padding-bottom: 30px;
 }
 
-.content .curce-block .basic_curse h3 {
+.content .curce-block .basic_curse h3,
+.content .curce-block .for-me_curce h3,
+.content .curce-block .bodyart_curce h3 {
   display: inline-block;
   text-align: center;
   font-size: 30px;
@@ -297,15 +297,97 @@ nav ul li a:hover {
   padding: 25px 100px 28px;
 }
 
-.content .curce-block .basic_curse .skill li {
+.content .curce-block .basic_curse .skill li,
+.content .curce-block .for-me_curce .skill li,
+.content .curce-block .bodyart_curce .skill li {
   padding: 8px 0;
 }
 
-.content .curce-block .basic_curse .skill li em {
+.content .curce-block .basic_curse .skill li em,
+.content .curce-block .for-me_curce .skill li em,
+.content .curce-block .bodyart_curce .skill li em {
   font-size: 18px;
   color: #000;
   font-family: "Comfortaa", cursive;
   margin-left: 15px;
+  display: inline-block;
+}
+
+.content .iprofi-block .line {
+  padding: 50px 0px;
+}
+
+.content .iprofi-block .line-text {
+  text-align: center;
+}
+
+.content .iprofi-block .line-text h2 {
+  font-family: "Conv_Vetka";
+  color: #000;
+  font-size: 55px;
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  top: -50px;
+  padding: 0 15px;
+}
+
+.content .iprofi-block .iprofi-one,
+.content .iprofi-block .iprofi-two,
+.content .iprofi-block .iprofi-three,
+.content .iprofi-block .iprofi-four,
+.content .iprofi-block .iprofi-five {
+  display: inline-block;
+  max-width: 50%;
+  float: left;
+  padding: 25px 30px;
+}
+
+.content .iprofi-block .iprofi-one img,
+.content .iprofi-block .iprofi-two img,
+.content .iprofi-block .iprofi-three img,
+.content .iprofi-block .iprofi-four img,
+.content .iprofi-block .iprofi-five img {
+  display: inline-block;
+}
+
+.content .iprofi-block .iprofi-one .title,
+.content .iprofi-block .iprofi-two .title,
+.content .iprofi-block .iprofi-three .title,
+.content .iprofi-block .iprofi-four .title,
+.content .iprofi-block .iprofi-five .title {
+  width: 390px;
+}
+
+.content .iprofi-block .iprofi-one .title strong,
+.content .iprofi-block .iprofi-two .title strong,
+.content .iprofi-block .iprofi-three .title strong,
+.content .iprofi-block .iprofi-four .title strong,
+.content .iprofi-block .iprofi-five .title strong {
+  font-family: "Comfortaa", cursive;
+  color: #000;
+  font-size: 30px;
+  display: block;
+}
+
+.content .iprofi-block .iprofi-one .title em,
+.content .iprofi-block .iprofi-two .title em,
+.content .iprofi-block .iprofi-three .title em,
+.content .iprofi-block .iprofi-four .title em,
+.content .iprofi-block .iprofi-five .title em {
+  font-family: "Comfortaa", cursive;
+  color: #000;
+  font-size: 18px;
+}
+
+.content .iprofi-block .iprofi-one .title em span,
+.content .iprofi-block .iprofi-two .title em span,
+.content .iprofi-block .iprofi-three .title em span,
+.content .iprofi-block .iprofi-four .title em span,
+.content .iprofi-block .iprofi-five .title em span {
+  display: inline-block;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 16px;
 }
 
 .container {

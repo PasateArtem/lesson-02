@@ -60,7 +60,6 @@
       }
 	}
 	.curce-block{
-		width: 73%;
 		.line{
 			padding: 50px 0px;
 			&-text{
@@ -77,7 +76,9 @@
 				}
 			}
 		}
-		.basic_curse{
+		.basic_curse,
+		.for-me_curce,
+		.bodyart_curce{
 			padding-bottom: 30px;
 			h3{
 				display: inline-block;
@@ -96,9 +97,60 @@
 				       color: $brand-color;
                        font-family: $font-family-comfortaa;
                        margin-left: 15px;
+                       display: inline-block;
 					}
 				}
 			}
-		}
+		}	
 	}
+	.iprofi-block{
+	    .line{
+		padding: 50px 0px;
+	    &-text{
+		    text-align: center;
+		    h2{
+			   font-family: $font-family-vetka;
+			   color: $brand-color;
+			   font-size: 55px;
+			   display: inline-block;
+               background: #fff;
+               position: relative;
+               top: -50px;
+               padding: 0 15px;
+		    }
+	    }
+    }
+    .iprofi-one,
+    .iprofi-two,
+    .iprofi-three,
+    .iprofi-four,
+    .iprofi-five{
+    	display: inline-block;
+    	max-width: 50%;
+    	float: left;
+    	padding: 25px 30px;
+    	img{
+    		display: inline-block;	
+    	}
+    	.title{
+    		width: 390px;
+    		strong{
+    		   font-family: $font-family-comfortaa;
+			   color: $brand-color;
+			   font-size: 30px;
+			   display: block;
+    		}
+    		em{
+    		   font-family: $font-family-comfortaa;
+			   color: $brand-color;
+			   font-size: 18px;
+			    span{
+			   	  display: inline-block;
+                   vertical-align: -webkit-baseline-middle;
+                   font-size: 16px;
+			    }
+    		}
+    	}
+    }	    
+  }
 }
