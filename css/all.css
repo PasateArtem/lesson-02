@@ -51,6 +51,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -105,6 +109,210 @@ body textarea:required:valid {
   src: local("☺"), url("../fonts/Vetka.woff") format("woff"), url("../fonts/Vetka.ttf") format("truetype"), url("../fonts/Vetka.svg") format("svg");
   font-weight: 400;
   font-style: normal;
+}
+
+.header {
+  background-color: rgba(79, 79, 79, 0.7);
+  background: rgba(79, 79, 79, 0.7);
+  color: rgba(79, 79, 79, 0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 1111;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 14px 0px 14px;
+}
+
+.header .container .logo {
+  margin-left: 100px;
+}
+
+.header .container .info .number em,
+.header .container .info .adres em {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Comfortaa", cursive;
+  padding: 0 8px;
+}
+
+.header .container .info .number {
+  margin-left: -8px;
+}
+
+.burger-btn {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+.burger-btn .fa {
+  font-size: 42px;
+  color: #e39682;
+  font-weight: 100;
+}
+
+nav {
+  display: none;
+  position: absolute;
+  top: 82px;
+  left: 0px;
+  width: 265px;
+  background-color: rgba(79, 79, 79, 0.7);
+  background: rgba(79, 79, 79, 0.7);
+  color: rgba(79, 79, 79, 0.7);
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  padding: 25px 0;
+  border-bottom: 1px solid #727779;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Comfortaa", cursive;
+  width: 72%;
+  display: inline-block;
+  text-align: left;
+  font-weight: 300;
+}
+
+nav ul li a:hover {
+  color: #e39683;
+}
+
+.content .top-block {
+  background: #c6ced1;
+}
+
+.content .top-block .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.content .top-block .container .top-block_text {
+  max-width: 64%;
+  margin-left: 72px;
+  margin-top: 150px;
+  padding-bottom: 107px;
+}
+
+.content .top-block .container .top-block_text h1 {
+  font-size: 72px;
+  font-family: "Conv_Vetka";
+  color: #000;
+}
+
+.content .top-block .container .top-block_text em {
+  font-family: "Comfortaa", cursive;
+  color: #000;
+  font-size: 30px;
+  padding: 45px 0;
+  display: inline-block;
+  font-weight: 100;
+}
+
+.content .top-block .container .top-block_text a {
+  padding: 7px 50px;
+  background: #e39683;
+  border-radius: 5px;
+  color: #000;
+  font-family: "Comfortaa", cursive;
+  box-shadow: -1px -2px 0px 0px #e4a190;
+  box-shadow: 2px 2px 0px 0px #d47862;
+}
+
+.content .top-block .container .top-block_img {
+  position: relative;
+  left: 127px;
+  top: 70px;
+}
+
+.content .top-block .container .top-block_img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content .top-block .container .btn-down {
+  position: absolute;
+  top: 500px;
+  left: 630px;
+}
+
+.content .curce-block {
+  width: 73%;
+}
+
+.content .curce-block .line {
+  padding: 50px 0px;
+}
+
+.content .curce-block .line-text {
+  text-align: center;
+}
+
+.content .curce-block .line-text h2 {
+  font-family: "Conv_Vetka";
+  color: #000;
+  font-size: 55px;
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  top: -50px;
+  padding: 0 15px;
+}
+
+.content .curce-block .basic_curse {
+  padding-bottom: 30px;
+}
+
+.content .curce-block .basic_curse h3 {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  font-family: "Comfortaa", cursive;
+  font-weight: 300;
+  padding: 25px 100px 28px;
+}
+
+.content .curce-block .basic_curse .skill li {
+  padding: 8px 0;
+}
+
+.content .curce-block .basic_curse .skill li em {
+  font-size: 18px;
+  color: #000;
+  font-family: "Comfortaa", cursive;
+  margin-left: 15px;
+}
+
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 27px;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=all.css.map */

@@ -1,0 +1,104 @@
+.content{
+	.top-block{
+      background: #c6ced1;
+      .container{
+      	display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        .top-block_text{
+        	max-width: 64%;
+            margin-left: 72px;
+            margin-top: 150px;
+            padding-bottom: 107px;
+        	h1{
+        		font-size: 72px;
+        		font-family: $font-family-vetka;
+        		color: $brand-color;
+        	}
+        	em{
+        		font-family: $font-family-comfortaa-light;
+        		color: $brand-color;
+        		font-size: 30px;
+        		padding: 45px 0;
+        		display: inline-block;
+        		font-weight: 100;
+        	}
+        	a{
+        		padding: 7px 50px;
+                background: #e39683;
+                border-radius: 5px;
+                color: $brand-color;
+                font-family: $font-family-comfortaa-light;
+	            -moz-box-shadow: -1px -2px 0px 0px #e4a190;
+	            -webkit-box-shadow: -1px -2px 0px 0px #e4a190;
+	            box-shadow: -1px -2px 0px 0px #e4a190;
+	            -moz-box-shadow: 2px 2px 0px 0px #d47862;
+	            -webkit-box-shadow: 2px 2px 0px 0px #d47862;
+	            box-shadow: 2px 2px 0px 0px #d47862;
+	        }
+        }
+        .top-block_img{
+        	position: relative;
+            left: 127px;
+            top: 70px;
+            img{
+            	max-width: 100%;
+            	height: auto;
+            }
+            
+        }
+        .btn-down{
+        	position: absolute;
+        	top: 500px;
+            left: 630px;
+        }
+      }
+	}
+	.curce-block{
+		width: 73%;
+		.line{
+			padding: 50px 0px;
+			&-text{
+				text-align: center;
+				h2{
+					font-family: $font-family-vetka;
+					color: $brand-color;
+					font-size: 55px;
+					display: inline-block;
+                    background: #fff;
+                    position: relative;
+                    top: -50px;
+                    padding: 0 15px;
+				}
+			}
+		}
+		.basic_curse{
+			padding-bottom: 30px;
+			h3{
+				display: inline-block;
+				text-align: center;
+				font-size: 30px;
+				color: $brand-color;
+                font-family: $font-family-comfortaa-light;
+                font-weight: 300;
+                padding: 25px 100px 28px;
+			}
+			.skill{
+				li{
+					padding: 8px 0;
+					em{
+					   font-size: 18px;
+				       color: $brand-color;
+                       font-family: $font-family-comfortaa;
+                       margin-left: 15px;
+					}
+				}
+			}
+		}
+	}
+}

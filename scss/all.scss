@@ -1,3 +1,12 @@
 @import "base/reset.scss";
 @import "components/variables.scss";
+@import "layout/header.scss";
+@import "layout/navigation.scss";
+@import "layout/content.scss";
 
+.container{
+  max-width: 970px;
+  margin: 0 auto;
+  padding:0 27px; 
+  box-sizing: border-box;
+}
