@@ -5,18 +5,10 @@
  	},
  	mainSlider: function(){
  		$('.main-slider .container').slick({
- 			slidesToShow: 1,
-            slidesToScroll:1,
- 			infinite: true,
-            mobileFirst: true,
+ 			
             prevArrow: $ ( '.prev' ),
             nextArrow: $ ( '.next' ),
-            responsive: [{
-        breakpoint: 500,
-        settings: {
-            slidesToShow: 1
-        }
-    }]  
+          
     
          });
  	},
