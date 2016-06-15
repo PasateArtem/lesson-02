@@ -665,6 +665,23 @@ nav ul li a:hover {
   font-family: "Comfortaa", cursive;
 }
 
+.content .social_networks {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.content .social_networks strong {
+  color: #000;
+  font-size: 30px;
+  font-family: "Comfortaa", cursive;
+}
+
+.content .social_networks ul li {
+  display: inline-block;
+  padding: 15px 20px;
+}
+
 /* Скрываем реальный чекбокс */
 .checkbox {
   display: none;
@@ -760,6 +777,16 @@ nav ul li a:hover {
   display: inline-block;
   box-shadow: -1px -2px 0px 0px #e4a190;
   box-shadow: 2px 2px 0px 0px #d47862;
+}
+
+.footer {
+  background: #4f4f4f;
+  text-align: center;
+}
+
+.footer img {
+  padding: 15px 0 15px;
+  width: 130px;
 }
 
 .container {
