@@ -211,6 +211,8 @@
         }
     }
     .iteam-block{
+        padding-bottom: 60px;
+        position: relative;
         .krig-block{
             padding: 0 30px 35px;
             &_img{
@@ -245,7 +247,7 @@
                 position: absolute;
                 width: 52px;
                 height: 50px;
-                top: 4570px;
+                top: 0px;
                 left: 70%;
                 transition: translateX(70%);
             }
@@ -255,13 +257,14 @@
                 position: absolute;
                 width: 51px;
                 height: 52px;
-                top: 4801px;
+                top: 245px;
                 left: 70%;
                 transition: translateX(70%);
             }
         }
         .ivbo-block{
             padding: 0 30px;
+            position: relative;
             &_img{
                 display: inline-block;
                 img{
@@ -294,7 +297,7 @@
                 position: absolute;
                 width: 52px;
                 height: 50px;
-                top: 4900px;
+                top: 0px;
                 left: 70%;
                 transition: translateX(70%);
             }
@@ -304,10 +307,107 @@
                 position: absolute;
                 width: 51px;
                 height: 52px;
-                top: 5142px;
+                top: 245px;
                 left: 70%;
                 transition: translateX(70%);
             }
         }
     }
+    .ireviews-block{
+        background: #c6ced1;
+        max-width: 100%;
+        max-height: 300px;
+        .container{
+            padding: 45px 0px;
+            width: 940px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            .person{
+                display: inline-block;
+                padding: 0 50px;
+                img{
+                   padding: 0 0 10px;
+                }
+                em{
+                    font-family: $font-family-comfortaa;
+                    color: $brand-color;
+                    font-size: 14px;
+                }
+            }
+            .person-description{
+                display: inline-block;
+                max-width: 600px;
+                vertical-align: top;
+                padding: 15px 0;
+                p{
+                    font-family: $font-family-comfortaa;
+                    color: $brand-color;
+                    font-size: 18px;
+                    line-height: 1.4em
+                }
+            }
+            .person-description:after{
+                content: '';
+                position: relative;
+
+            }
+        }
+    }
+    .block-map{
+        position: relative;
+        .map-info{
+        position: absolute;
+        width: 440px;
+        min-height: 640px;
+        background-color: rgba(255, 255, 255, 0.7);
+        background: rgba(255, 255, 255, 0.7);
+        color: rgba(255, 255, 255, 0.7);
+        text-align: center;
+        top: 0px;
+        left: 6%;
+        strong{
+            font-family: $font-family-comfortaa;
+            color: $brand-color;
+            font-size: 30px;
+            display: block;
+            padding: 40px 0 40px;
+        }
+        .info{
+            margin-left: -90px;
+            padding-bottom: 50px;
+            .number,
+            .adres{
+                padding-bottom: 12px;
+
+                em{
+                    color: $brand-color;
+                    font-size: 14px;
+                    font-family: $font-family-comfortaa;
+                    padding: 0 8px;
+                }
+            }
+            .number{
+                margin-left: -100px;
+
+            }
+        }
+        .registration{
+            text-align: center;
+            padding-bottom: 15px;
+            em{
+                color: $brand-color;
+                font-size: 14px;
+                font-family: $font-family-comfortaa;
+            }
+        }
+        
+    }    
+    }
+    
 }

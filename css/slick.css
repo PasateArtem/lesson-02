@@ -139,3 +139,27 @@ button.next.slick-arrow {
     width: 30px;
     height: 65px;
 }
+button.prev2.slick-arrow {
+    position: relative;
+    top: -195px;
+    left: 7%;
+    background: url(../img/prev.png);
+    border: none;
+    text-indent: -9999px;
+    outline: none;
+    cursor: pointer;
+    width: 28px;
+    height: 65px;
+}
+button.next2.slick-arrow {
+    position: relative;
+    top: -195px;
+    left: 88%;
+    background: url(../img/next.png);
+    border: none;
+    text-indent: -9999px;
+    outline: none;
+    cursor: pointer;
+    width: 30px;
+    height: 65px;
+}

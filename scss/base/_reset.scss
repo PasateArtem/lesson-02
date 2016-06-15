@@ -94,4 +94,9 @@ body input:required:valid,
 body textarea:required:valid {
 	border:  1px solid green;
 }
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none; margin: 0px;
+        }
+
  

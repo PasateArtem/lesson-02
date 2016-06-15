@@ -1,0 +1,92 @@
+/* Скрываем реальный чекбокс */
+.checkbox {
+    display: none;
+}
+ 
+/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
+.checkbox-custom {
+    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+    width: 15px;             /* Обязательно задаем ширину */
+    height: 15px;            /* Обязательно задаем высоту */
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    float: right;
+    margin-left: -26px;
+    left: -4%;
+    padding: 0px;
+    top: -3px;
+}
+ 
+/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+    display: block;
+    margin-top: 17px;
+    color: $brand-color;
+    font-size: 14px;
+    font-family: $font-family-comfortaa;
+    margin-left: 13px;
+}
+ 
+/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+.checkbox:checked + .checkbox-custom::before {
+    content: "";             /* Добавляем наш псевдоэлемент */
+    display: block;          /* Делаем его блочным элементом */
+    position: absolute;      /* Позиционируем его абсолютным образом */
+ 
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: -5px;
+    right: -1px;
+    bottom: 2px;
+    left: 0px;
+    background: url(../img/ok.png);     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+    border-radius: 2px;
+
+}
+.form{
+    max-width: 345px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    form{
+        input{
+            max-width: 141px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            padding: 11px 7px;
+            margin-top: 15px;
+        }
+        .check-block{
+            width: 315px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin: 0 auto;
+            margin-top: 20px;
+            .form-row{
+                text-align: left;
+                padding: 4px 0;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+        a{
+            padding: 7px 50px;
+                    background: #e39683;
+                    border-radius: 5px;
+                    color: $brand-color;
+                    font-family: $font-family-comfortaa-light;
+                    margin-top: 30px;
+                    margin-bottom: 15px;
+                    display: inline-block;
+                    -moz-box-shadow: -1px -2px 0px 0px #e4a190;
+                    -webkit-box-shadow: -1px -2px 0px 0px #e4a190;
+                    box-shadow: -1px -2px 0px 0px #e4a190;
+                    -moz-box-shadow: 2px 2px 0px 0px #d47862;
+                    -webkit-box-shadow: 2px 2px 0px 0px #d47862;
+                    box-shadow: 2px 2px 0px 0px #d47862;
+        }   
+    }
+}

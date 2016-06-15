@@ -11,6 +11,13 @@
           
     
          });
+        $('.main-slider_2 .container').slick({
+            
+            prevArrow: $ ( '.prev2' ),
+            nextArrow: $ ( '.next2' ),
+          
+    
+         });
  	},
  // 	burgerMenu: function(){
 	// 	$('.burger-btn').on('click', function(){
