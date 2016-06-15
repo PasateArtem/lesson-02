@@ -269,15 +269,15 @@ nav ul li a:hover {
   margin-left: -66px;
 }
 
-.content .curce-block .line {
+.content .line {
   padding: 50px 0px;
 }
 
-.content .curce-block .line-text {
+.content .line-text {
   text-align: center;
 }
 
-.content .curce-block .line-text h2 {
+.content .line-text h2 {
   font-family: "Conv_Vetka";
   color: #000;
   font-size: 55px;
@@ -324,25 +324,7 @@ nav ul li a:hover {
 
 .content .iprofi-block {
   padding-bottom: 50px;
-}
-
-.content .iprofi-block .line {
-  padding: 50px 0px;
-}
-
-.content .iprofi-block .line-text {
-  text-align: center;
-}
-
-.content .iprofi-block .line-text h2 {
-  font-family: "Conv_Vetka";
-  color: #000;
-  font-size: 55px;
   display: inline-block;
-  background: #fff;
-  position: relative;
-  top: -50px;
-  padding: 0 15px;
 }
 
 .content .iprofi-block .iprofi-one,
@@ -408,25 +390,6 @@ nav ul li a:hover {
   display: inline-block;
 }
 
-.content .iwork-block .line {
-  padding: 50px 0px;
-}
-
-.content .iwork-block .line-text {
-  text-align: center;
-}
-
-.content .iwork-block .line-text h2 {
-  font-family: "Conv_Vetka";
-  color: #000;
-  font-size: 55px;
-  display: inline-block;
-  background: #fff;
-  position: relative;
-  top: -50px;
-  padding: 0 15px;
-}
-
 .content .iwork-block .main-slider .container {
   padding: 0px;
   width: 940px;
@@ -462,11 +425,133 @@ nav ul li a:hover {
   height: auto;
 }
 
+.content .iteam-block .krig-block {
+  padding: 0 30px 35px;
+}
+
+.content .iteam-block .krig-block_img {
+  display: inline-block;
+}
+
+.content .iteam-block .krig-block_img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content .iteam-block .krig-block_description {
+  display: inline-block;
+  max-width: 300px;
+  vertical-align: top;
+  padding: 60px 30px;
+}
+
+.content .iteam-block .krig-block_description strong {
+  font-family: "Comfortaa", cursive;
+  color: #000;
+  font-size: 30px;
+  display: block;
+}
+
+.content .iteam-block .krig-block_description em {
+  font-family: "Comfortaa", cursive;
+  color: #000;
+  font-size: 18px;
+  display: block;
+  padding: 15px 0;
+}
+
+.content .iteam-block .krig-block_description:after {
+  content: ' ';
+  background: url(../img/border-after.png);
+  position: absolute;
+  width: 52px;
+  height: 50px;
+  top: 4570px;
+  left: 70%;
+  -webkit-transition: translateX(70%);
+          transition: translateX(70%);
+}
+
+.content .iteam-block .krig-block_description:before {
+  content: ' ';
+  background: url(../img/border-before.png);
+  position: absolute;
+  width: 51px;
+  height: 52px;
+  top: 4801px;
+  left: 70%;
+  -webkit-transition: translateX(70%);
+          transition: translateX(70%);
+}
+
+.content .iteam-block .ivbo-block {
+  padding: 0 30px;
+}
+
+.content .iteam-block .ivbo-block_img {
+  display: inline-block;
+}
+
+.content .iteam-block .ivbo-block_img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content .iteam-block .ivbo-block_description {
+  display: inline-block;
+  max-width: 300px;
+  vertical-align: top;
+  padding: 60px 30px;
+}
+
+.content .iteam-block .ivbo-block_description strong {
+  font-family: "Comfortaa", cursive;
+  color: #000;
+  font-size: 30px;
+  display: block;
+}
+
+.content .iteam-block .ivbo-block_description em {
+  font-family: "Comfortaa", cursive;
+  color: #000;
+  font-size: 18px;
+  display: block;
+  padding: 15px 0;
+}
+
+.content .iteam-block .ivbo-block_description:after {
+  content: ' ';
+  background: url(../img/border-after.png);
+  position: absolute;
+  width: 52px;
+  height: 50px;
+  top: 4900px;
+  left: 70%;
+  -webkit-transition: translateX(70%);
+          transition: translateX(70%);
+}
+
+.content .iteam-block .ivbo-block_description:before {
+  content: ' ';
+  background: url(../img/border-before.png);
+  position: absolute;
+  width: 51px;
+  height: 52px;
+  top: 5142px;
+  left: 70%;
+  -webkit-transition: translateX(70%);
+          transition: translateX(70%);
+}
+
 .container {
   max-width: 970px;
   margin: 0 auto;
   padding: 0 27px;
   box-sizing: border-box;
+}
+
+.i4ewOd-pzNkMb-haAclf {
+  display: none !important;
 }
 
 /*# sourceMappingURL=all.css.map */

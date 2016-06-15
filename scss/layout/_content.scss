@@ -62,23 +62,23 @@
             }
         }
 	}
-	.curce-block{
-		.line{
-			padding: 50px 0px;
-			&-text{
-				text-align: center;
-				h2{
-					font-family: $font-family-vetka;
-					color: $brand-color;
-					font-size: 55px;
-					display: inline-block;
+    .line{
+            padding: 50px 0px;
+            &-text{
+                text-align: center;
+                h2{
+                    font-family: $font-family-vetka;
+                    color: $brand-color;
+                    font-size: 55px;
+                    display: inline-block;
                     background: #fff;
                     position: relative;
                     top: -50px;
                     padding: 0 15px;
-				}
-			}
-		}
+                }
+            }
+        }
+	.curce-block{
 		.basic_curse,
 		.for-me_curce,
 		.bodyart_curce{
@@ -108,22 +108,23 @@
 	}
 	.iprofi-block{
         padding-bottom: 50px;
-	    .line{
-		    padding: 50px 0px;
-	        &-text{
-		        text-align: center;
-		        h2{
-			        font-family: $font-family-vetka;
-			        color: $brand-color;
-			        font-size: 55px;
-			        display: inline-block;
-                    background: #fff;
-                    position: relative;
-                    top: -50px;
-                    padding: 0 15px;
-		        }
-	        }
-        }
+        display: inline-block;
+	    // .line{
+		   //  padding: 50px 0px;
+	    //     &-text{
+		   //      text-align: center;
+		   //      h2{
+			  //       font-family: $font-family-vetka;
+			  //       color: $brand-color;
+			  //       font-size: 55px;
+			  //       display: inline-block;
+     //                background: #fff;
+     //                position: relative;
+     //                top: -50px;
+     //                padding: 0 15px;
+		   //      }
+	    //     }
+     //    }
         .iprofi-one,
         .iprofi-two,
         .iprofi-three,
@@ -160,22 +161,22 @@
     .iwork-block{
         max-width: 100%;
         display: inline-block;
-        .line{
-            padding: 50px 0px;
-            &-text{
-                text-align: center;
-                h2{
-                    font-family: $font-family-vetka;
-                    color: $brand-color;
-                    font-size: 55px;
-                    display: inline-block;
-                    background: #fff;
-                    position: relative;
-                    top: -50px;
-                    padding: 0 15px;
-                }
-            }
-        }
+        // .line{
+        //     padding: 50px 0px;
+        //     &-text{
+        //         text-align: center;
+        //         h2{
+        //             font-family: $font-family-vetka;
+        //             color: $brand-color;
+        //             font-size: 55px;
+        //             display: inline-block;
+        //             background: #fff;
+        //             position: relative;
+        //             top: -50px;
+        //             padding: 0 15px;
+        //         }
+        //     }
+        // }
         .main-slider{
             .container{
                 padding: 0px;
@@ -207,6 +208,106 @@
                     }
                 }
             } 
+        }
+    }
+    .iteam-block{
+        .krig-block{
+            padding: 0 30px 35px;
+            &_img{
+                display: inline-block;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+            &_description{
+                display: inline-block;
+                max-width: 300px;
+                vertical-align: top;
+                padding: 60px 30px;
+                strong{
+                    font-family: $font-family-comfortaa;
+                    color: $brand-color;
+                    font-size: 30px;
+                    display: block;
+                }
+                em{
+                    font-family: $font-family-comfortaa;
+                    color: $brand-color;
+                    font-size: 18px;
+                    display: block;
+                    padding: 15px 0;
+                }
+            }
+            &_description:after{
+                content: ' ';
+                background: url(../img/border-after.png);
+                position: absolute;
+                width: 52px;
+                height: 50px;
+                top: 4570px;
+                left: 70%;
+                transition: translateX(70%);
+            }
+            &_description:before{
+                content: ' ';
+                background: url(../img/border-before.png);
+                position: absolute;
+                width: 51px;
+                height: 52px;
+                top: 4801px;
+                left: 70%;
+                transition: translateX(70%);
+            }
+        }
+        .ivbo-block{
+            padding: 0 30px;
+            &_img{
+                display: inline-block;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+            &_description{
+                display: inline-block;
+                max-width: 300px;
+                vertical-align: top;
+                padding: 60px 30px;
+                strong{
+                    font-family: $font-family-comfortaa;
+                    color: $brand-color;
+                    font-size: 30px;
+                    display: block;
+                }
+                em{
+                    font-family: $font-family-comfortaa;
+                    color: $brand-color;
+                    font-size: 18px;
+                    display: block;
+                    padding: 15px 0;
+                }
+            }
+            &_description:after{
+                content: ' ';
+                background: url(../img/border-after.png);
+                position: absolute;
+                width: 52px;
+                height: 50px;
+                top: 4900px;
+                left: 70%;
+                transition: translateX(70%);
+            }
+            &_description:before{
+                content: ' ';
+                background: url(../img/border-before.png);
+                position: absolute;
+                width: 51px;
+                height: 52px;
+                top: 5142px;
+                left: 70%;
+                transition: translateX(70%);
+            }
         }
     }
 }
